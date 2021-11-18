@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f35df93c-31bf-4fe5-8c56-70582126ca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities">
+      <UniqueIdentifier>{f58e9c74-955c-4053-aeb9-45aeae8568c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities\Static">
+      <UniqueIdentifier>{8e80d2fc-ffcf-4187-b541-d35a283721ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game entities\Movable">
+      <UniqueIdentifier>{534d0c22-4923-4d78-b772-8511e1871aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{cf8fdefa-6d25-49ff-99c5-564e289a7b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{407f4558-6586-4bc4-8b47-e4c33e7ecfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{0b056103-76a4-44ac-88fb-27cb0e963dbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Game\Game entities</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticGameEntity.cpp">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableGameEntity.cpp">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SdlSurface.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SdlWindow.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SdlWrapper.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GlContext.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Play.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2Int.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Dot.cpp">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="BigDot.cpp">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Cherry.cpp">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Game\Game entities</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticGameEntity.h">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableGameEntity.h">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SdlSurface.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SdlWindow.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SdlWrapper.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GlContext.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Play.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2Int.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="BigDot.h">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Game\Game entities\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Cherry.h">
+      <Filter>Game\Game entities\Static</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
